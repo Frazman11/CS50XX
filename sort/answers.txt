@@ -1,0 +1,11 @@
+sort1 uses: Bubble
+
+How do you know?: With sorted50000.txt gives near lowest, and with rev50000.txt gives n2 time of 6.1s. Only algorithm that has massive differences between best case and worst case (On vs On^2)
+
+sort2 uses: Merge
+
+How do you know?: compute times for random5000 to random50000 grow linearly --> n log n (0.062 -->0.613)
+
+sort3 uses: Selection
+
+How do you know?: Compute times for random5000 to random50000 grow exponentially --> n^2 (0.178 --> 3.5)
